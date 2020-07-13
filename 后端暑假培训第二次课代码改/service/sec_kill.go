@@ -56,6 +56,8 @@ func set_inMap() {
 	<-timer.C
 	//添加
 	initMap()
+	//自己调用自己
+	set_inMap()
 
 }
 
