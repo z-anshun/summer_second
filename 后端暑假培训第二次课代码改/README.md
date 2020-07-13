@@ -23,7 +23,7 @@
     	next := time.Date(t.Year(), t.Month(), t.Day()+1, 0, 0, 0, 0, t.Location())
     	//设置timer
     	timer := time.NewTimer(next.Sub(t))
-    	//如果啥子商品都没用，就读取
+    	
     	<-timer.C
     	//添加
     	initMap()
