@@ -27,6 +27,8 @@
     	<-timer.C
     	//添加
     	initMap()
+      //到时间后再次调用自己
+	    set_inMap()
     
     }
 ```
